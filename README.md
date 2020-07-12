@@ -9,6 +9,7 @@ Merhaba Bu Projede Laravel ve Vue Js ile Yekilendirme ve Role Blog Sistemi.
 
 - Laravel Vue Permissions
 - Laravel Vue Role
+- Laravel Vue User Manage
 - Slug Generator
 
 
