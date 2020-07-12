@@ -12,6 +12,14 @@ Merhaba Bu Projede Laravel ve Vue Js ile Yekilendirme ve Role Blog Sistemi.
 - Laravel Vue User Manage
 - Slug Generator
 
+Kullanılan Teknolojiler
+- Laravel
+- Api
+- Vue
+- Vue Axios
+- Bulma CSS
+- Buefy UI Component
+- Toast Alert
 
 ## License
 
