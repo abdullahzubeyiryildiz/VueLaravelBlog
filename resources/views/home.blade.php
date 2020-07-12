@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('content')
@@ -10,12 +9,6 @@
 
                 <div class="panel-body">
                     {{-- You are logged in! --}}
-                     @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-                      {{ __('You are logged in!') }}
                   <pre>
                     {{-- {{ dd(json_encode(LaraFlash::allByPriority())) }} --}}
                   </pre>
