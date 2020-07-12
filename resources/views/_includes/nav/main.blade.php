@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item is-paddingless" href="{{route('home')}}">
-        <img src="{{asset('images/devmarketer-logo.png')}}" alt="DevMarketer logo">
+        <img src="{{asset('images/logo.png')}}" alt="DevMarketer logo">
       </a>
 
       @if (Request::segment(1) == "manage")
