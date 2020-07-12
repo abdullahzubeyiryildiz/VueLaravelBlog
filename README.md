@@ -20,6 +20,7 @@ Kullanılan Teknolojiler
 - Bulma CSS
 - Buefy UI Component
 - Toast Alert
+- Sass
 - JavaScript
 
 ## License
