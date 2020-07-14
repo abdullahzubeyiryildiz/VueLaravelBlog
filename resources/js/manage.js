@@ -1,9 +1,22 @@
+
+
+
+
 window.addEventListener('load',function(){
+
+  const burgernav = document.getElementById('admin-slidein-button')
+  burgernav.onclick = function () {
+    this.classList.toggle('is-active');
+    document.getElementById('admin-nav-menu').classList.toggle('is-active');
+  }
+
+
+
 
   const accordions = document.getElementsByClassName('has-submenu')
   const adminSlideButton = document.getElementById('admin-slideout-button')
 
-  const burgernav = document.getElementById('admin-slidein-button')
+ 
 
   function setSubmenuStyles (submenu, maxHeight, margins) {
     submenu.style.maxHeight = maxHeight
@@ -18,10 +31,6 @@ window.addEventListener('load',function(){
     document.getElementById('admin-side-menu').classList.toggle('is-active');
   }
 
-  burgernav.onclick = function () {
-    this.classList.toggle('is-active');
-    document.getElementById('admin-nav-menu').classList.toggle('is-active');
-  }
 
 
   for (var i = 0; i < accordions.length; i++) {

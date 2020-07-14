@@ -51435,9 +51435,15 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 window.addEventListener('load', function () {
+  var burgernav = document.getElementById('admin-slidein-button');
+
+  burgernav.onclick = function () {
+    this.classList.toggle('is-active');
+    document.getElementById('admin-nav-menu').classList.toggle('is-active');
+  };
+
   var accordions = document.getElementsByClassName('has-submenu');
   var adminSlideButton = document.getElementById('admin-slideout-button');
-  var burgernav = document.getElementById('admin-slidein-button');
 
   function setSubmenuStyles(submenu, maxHeight, margins) {
     submenu.style.maxHeight = maxHeight;
@@ -51448,11 +51454,6 @@ window.addEventListener('load', function () {
   adminSlideButton.onclick = function () {
     this.classList.toggle('is-active');
     document.getElementById('admin-side-menu').classList.toggle('is-active');
-  };
-
-  burgernav.onclick = function () {
-    this.classList.toggle('is-active');
-    document.getElementById('admin-nav-menu').classList.toggle('is-active');
   };
 
   for (var i = 0; i < accordions.length; i++) {
